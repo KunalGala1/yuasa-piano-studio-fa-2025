@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="p-8 shadow bg-slate-200 text-base space-y-4">
-        <ul>
+        <ul className="max-w-6xl mx-auto">
           <li>
             <Link
               href={"https://www.instagram.com/yuasapianostudio/"}

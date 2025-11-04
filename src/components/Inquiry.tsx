@@ -282,7 +282,7 @@ const Inquiry = () => {
             Previous Musical Experience
           </Label>
           <textarea
-            {...register("previousMusicExperience")}
+            {...register("previousMusicExperience", { required: true })}
             className="border rounded p-3 bg-blue-50/50 hover:border-main w-full"
             rows={4}
           ></textarea>

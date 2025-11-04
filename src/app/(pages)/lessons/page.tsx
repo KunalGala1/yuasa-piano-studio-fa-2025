@@ -117,7 +117,7 @@ const LessonsPage = async () => {
         </div>
         <div>
           <SmallHeading>Subjects</SmallHeading>
-          <ul className="text-textColor font-light ml-8">
+          <ul className="text-textColor font-light ml-8 mb-6">
             {lessonsInfo.subjects.options.map((subject, index) => (
               <li key={index}>{subject}</li>
             ))}

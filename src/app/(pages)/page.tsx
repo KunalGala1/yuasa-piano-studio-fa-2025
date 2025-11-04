@@ -172,7 +172,7 @@ const HomePage = async () => {
           <LearnMoreList>
             <li>
               Weekly 45 or 60 minute lessons in the comfort and convenience of
-              your own home, or virtually.
+              your own home.
             </li>
             <li>
               Comprehensive instruction in music theory, sight-reading, chord

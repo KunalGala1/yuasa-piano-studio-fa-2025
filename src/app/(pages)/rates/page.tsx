@@ -16,7 +16,7 @@ const RatesPage = () => {
           <div>
             <SmallHeading>Tuition</SmallHeading>
             <MainText>
-              Tuition covers 38 weeks of study, and is payable by year, semester
+              Tuition covers 36 weeks of study, and is payable by year, semester
               or month. Tuition prices include lesson materials, instruction,
               and travel within a 30 minute radius of my home in Sunnyside.
               Students are responsible for providing their own{" "}
@@ -40,13 +40,13 @@ const RatesPage = () => {
                   price: "$82/Lesson",
                   perMonth: [
                     "$295/month",
-                    "First payment due September 5th 2023, following payments due by the end of the month October - June.",
+                    "First payment due September 5th 2025, following payments due by the end of the month October - June.",
                   ],
                   perSemester: [
                     "$1475/semester",
-                    "Payments due September 5th 2023 and February 5th 2024.",
+                    "Payments due September 5th 2025 and February 5th 2026.",
                   ],
-                  perYear: ["$2950/year", "Payment due September 5th 2023."],
+                  perYear: ["$2950/year", "Payment due September 5th 2025."],
                 }}
               />
               <RatesTicket
@@ -59,13 +59,13 @@ const RatesPage = () => {
                   price: "$100/Lesson",
                   perMonth: [
                     "$360/month",
-                    "First payment due September 5th 2023, following payments due by the end of the month October - June.",
+                    "First payment due September 5th 2025, following payments due by the end of the month October - June.",
                   ],
                   perSemester: [
                     "$1800/semester",
-                    "Payments due September 5th 2023 and February 5th 2024.",
+                    "Payments due September 5th 2025 and February 5th 2026.",
                   ],
-                  perYear: ["$3600/year", "Payment due September 5th 2023."],
+                  perYear: ["$3600/year", "Payment due September 5th 2025."],
                 }}
               />
               <RatesTicket
@@ -78,13 +78,13 @@ const RatesPage = () => {
                   price: "$112/Lesson",
                   perMonth: [
                     "$405/month",
-                    "First payment due September 5th 2023, following payments due by the end of the month October - June.",
+                    "First payment due September 5th 2025, following payments due by the end of the month October - June.",
                   ],
                   perSemester: [
                     "$2025",
-                    "Payments due September 5th 2023 and February 5th 2024.",
+                    "Payments due September 5th 2025 and February 5th 2026.",
                   ],
-                  perYear: ["$4050/year", "Payment due September 5th 2023."],
+                  perYear: ["$4050/year", "Payment due September 5th 2025."],
                 }}
               />
             </div>
