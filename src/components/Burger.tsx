@@ -10,7 +10,7 @@ const Burger = ({ isOpen, toggleOpen }: BurgerProps) => {
   return (
     <div
       className={`group cursor-pointer space-y-1 transition z-20 md:hidden ${
-        isOpen ? 'fixed right-4' : ''
+        isOpen ? 'fixed right-8' : ''
       }`}
       onClick={toggleOpen}
     >
