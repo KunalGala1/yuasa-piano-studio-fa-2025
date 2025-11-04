@@ -52,7 +52,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className={`${lato.className} text-lg lg:text-xl`}>{children}</body>
+      <body className={`${lato.className} text-lg lg:text-xl overflow-x-hidden`}>{children}</body>
     </html>
   );
 }
