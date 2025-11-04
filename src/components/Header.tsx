@@ -53,7 +53,7 @@ const Header = () => {
   };
 
   return (
-    <header className="h-[100px] p-4 shadow bg-white">
+    <header className="h-[100px] py-4 px-8 sm:px-4 shadow bg-white">
       <div className="h-full flex justify-between md:justify-start md:gap-8 items-center max-w-6xl mx-auto">
         {/* Logo */}
         <div className="h-full">
