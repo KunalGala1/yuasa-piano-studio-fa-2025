@@ -73,7 +73,7 @@ const Inquiry = () => {
       </p>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className={`flex flex-col gap-8 rounded shadow p-8 bg-white ${
+        className={`flex flex-col gap-8 rounded shadow sm:p-8 p-6 bg-white ${
           isSending
             ? "after:w-full after:h-full after:bg-gray-100/60 after:top-0 after:left-0 after:absolute relative cursor-not-allowed"
             : ""
