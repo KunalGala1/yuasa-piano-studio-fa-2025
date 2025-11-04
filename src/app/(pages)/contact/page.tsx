@@ -6,7 +6,7 @@ import Inquiry from "@/components/Inquiry";
 
 const ContactPage = () => {
   return (
-    <main className="px-4 sm:px-8 py-16">
+    <main className="px-4 sm:px-8 py-12">
       <div className="max-w-6xl mx-auto space-y-4">
         <SmallHeading>
           Use this form to make a trial lesson request!

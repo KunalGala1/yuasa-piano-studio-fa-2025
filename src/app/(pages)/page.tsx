@@ -153,15 +153,19 @@ const HomePage = async () => {
             </li>
             <li>
               Comprehensive instruction in music theory, sight-reading, chord
-              charts, technique and ear training.
+              charts, technique <span className="inline-block">and ear training.</span>
             </li>
             <li>
-              Fun repertoire that includes classical, jazz, folk, rock and pop
-              music.
+              Fun repertoire that includes classical, jazz, folk, rock <span className="inline-block">
+                and pop
+                music.
+              </span>
             </li>
             <li>
-              Other activities such as composing, arranging and music
-              production.
+              Other activities such as composing, arranging <span className="inline-block">
+                and music
+                production.
+              </span>
             </li>
           </LearnMoreList>
         </LearnMoreCard>
@@ -176,7 +180,7 @@ const HomePage = async () => {
             </li>
             <li>
               Comprehensive instruction in music theory, sight-reading, chord
-              charts technique and ear training.
+              charts technique <span className="inline-block">and ear training.</span>
             </li>
             <li>
               Inspiring repertoire, clear and informative feedback, and
