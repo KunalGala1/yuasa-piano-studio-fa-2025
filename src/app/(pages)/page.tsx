@@ -182,10 +182,6 @@ const HomePage = async () => {
               Inspiring repertoire, clear and informative feedback, and
               easy-to-follow assignments.
             </li>
-            <li>
-              Virtual Only - Flexible, week to week scheduling to accommodate
-              busy schedules.
-            </li>
           </LearnMoreList>
         </LearnMoreCard>
       </section>
