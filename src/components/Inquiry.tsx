@@ -160,7 +160,9 @@ const Inquiry = () => {
         <div className="w-full flex flex-col flex-1">
           <Label htmlFor="addressLine1">Address Line 1</Label>
           <input
-            {...register("addressLine1", { required: true })}
+            {...register("addressLine1", {
+              required: "Please enter an address",
+            })}
             className="border rounded p-3 bg-blue-50/50 hover:border-main w-full"
           />
           {errors["addressLine1"] && (
@@ -282,10 +284,17 @@ const Inquiry = () => {
             Previous Musical Experience
           </Label>
           <textarea
-            {...register("previousMusicExperience", { required: true })}
+            {...register("previousMusicExperience", {
+              required: "Please enter previous musical experience",
+            })}
             className="border rounded p-3 bg-blue-50/50 hover:border-main w-full"
             rows={4}
           ></textarea>
+          {errors["previousMusicExperience"] && (
+            <span className="text-xs text-red-500 mt-1">
+              {errors["previousMusicExperience"].message}
+            </span>
+          )}
         </div>
         <Button theme={"dark"} className="ml-auto" icon={faPaperPlane}>
           <input type="submit" value={"Send"} className="cursor-pointer" />
